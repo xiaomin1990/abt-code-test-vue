@@ -1,0 +1,38 @@
+node:
+  mode: production
+  version: 1.3.17
+  sk: >-
+    0x2add0c7a9a12bd90b5af4c661dfa5984028098ea5e144efc35019f3bc37892caa32ce4aef3e7e33b19c67f9e9e6a34975d66ee4f037654bcf24bde1446284ee8
+  pk: '0xa32ce4aef3e7e33b19c67f9e9e6a34975d66ee4f037654bcf24bde1446284ee8'
+  did: zNKjs8C9FCDzmFHSk5KfJVwMsV9gqXf6QfuE
+  port: 8089
+  secret: '0xafee025ea18f3beef8ef2f5086572d0ffd61c7d8228428a5cf5d1ae2e89dc617'
+  owner:
+    pk: ''
+    did: ''
+  ownerNft:
+    holder: ''
+    issuer: ''
+  main: dist
+  title: code test
+  scripts:
+    dev: npm run serve
+  routing:
+    provider: nginx
+    adminPath: /admin/
+    headers:
+      X-Powered-By: '"ABT Node/1.3.17"'
+    maxUploadFileSize: 500
+    https: true
+    httpPort: 80
+    httpsPort: 443
+    dashboardCertDownloadAddress: 'https://cert.abtnet.io/open/download/certificates/ip_abtnet_io'
+    dashboardDomain: '*.ip.abtnet.io'
+  runtimeConfig:
+    daemonMaxMemoryLimit: 300
+    proxyMaxMemoryLimit: 300
+    blockletMaxMemoryLimit: 300
+blocklet:
+  port: 8089
+initialize:
+  blocklets: []
