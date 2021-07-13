@@ -8,7 +8,7 @@
 
 ##  快速开始
 ```
-git clone https://gitee.com/db_man/abt-code-test-vue.git
+git clone https://github.com/xiaomin1990/abt-code-test-vue.git
 cd abt-code-test-vue
 npm install
 npm run serve
